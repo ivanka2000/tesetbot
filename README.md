@@ -1,2 +1,3 @@
-# tesetbot
-testbot
+# BomberBot-Telegram
+
+Телеграм создателя @ATrild
