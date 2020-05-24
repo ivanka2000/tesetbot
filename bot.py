@@ -6,7 +6,6 @@ import telebot
 
 import time
 
-
 # Нужно вписать токет своего бота.
 TOKEN = '1216578884:AAEta-TK-wor2IdK-Z8BUjcBhXMbIbuRbGo'
 
