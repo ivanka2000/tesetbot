@@ -21,7 +21,6 @@ ADMIN_CHAT_ID = 995235766
 users_amount = [0]
 threads = list()
 THREADS_AMOUNT = [0]
-types = telebot.types
 bot = TeleBot(TOKEN)
 running_spams_per_chat_id = []
 
