@@ -1,1 +1,1 @@
-worker: python bot.pay
+worker: python bot.py
