@@ -3,7 +3,6 @@ import threading
 from datetime import datetime, timedelta
 from telebot import TeleBot
 import telebot
-
 import time
 
 # Нужно вписать токет своего бота.
@@ -58,8 +57,8 @@ def send_message_users(message):
     [send_message(chat_id) for chat_id in ids_list]
 
 
-@bot message_handler(commands=['start'])
-def start(message):
+@bot.message_handler(commands=['start'])
+def handle_start(message):
     keyboard = types.ReplyKeyboardMarkup(row_width=2, resize_keyboard=True)
     boom = types.KeyboardButton(text='🔥💣БОМБЕР')
     stop = types.KeyboardButton(text='Стоп Спам')
